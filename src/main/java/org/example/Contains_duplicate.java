@@ -4,7 +4,7 @@ public class Contains_duplicate {
     public static boolean containsDuplicate(int[] nums) {
         boolean res = false;
         for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[0] == nums[i + 1] ) {
+            if (nums[0] == nums[i + 1]) {
                 res = true;
                 break;
             } else
@@ -12,5 +12,6 @@ public class Contains_duplicate {
 
         }
 
-        return res;}
+        return res;
+    }
 }
